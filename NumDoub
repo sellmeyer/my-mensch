@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+/**
+ *
+ * @author sellmean
+ */
+public class NumDoub {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+       Scanner in= new Scanner(System.in);
+       double numInput;
+       double numDoubled;
+       //prompt for amount and get input
+       System.out.print("Enter number to double: ");
+       numInput=in.nextDouble();
+       //perform double operation
+       numDoubled=numInput*2;
+       //display output
+       System.out.println("The output is:"+numDoubled);
+       
+    }
+    
+}
